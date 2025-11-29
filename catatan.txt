@@ -1,0 +1,137 @@
+🚀 A. ANALISIS YANG PERLU DILAKUKAN (BERDASARKAN KOLOM DATA KAMU)
+1. Analisis Deskriptif (Wajib)
+
+Jumlah total customer
+
+Rata-rata total_spent
+
+Rata-rata annual_visits
+
+Rata-rata online_ratio
+
+Rata-rata LTV (ltv_estimate)
+
+Distribusi rating (customer_rating)
+
+2. Customer Behavior Analysis
+
+✔️ Toko mana paling banyak pelanggan (home_store)
+✔️ Region mana paling besar (region)
+✔️ Berapa persen pelanggan online-dominant (online_ratio > 0.7)
+✔️ Berapa persen yang offline-dominant
+✔️ Pengguna loyalty program vs non-loyalty
+✔️ Pola kunjungan 2023 (visits_2023)
+
+3. Revenue & Spending Analysis
+
+Siapa top spender
+
+Distribusi total_spent
+
+Rata-rata pengeluaran pelanggan berdasarkan region
+
+Rata-rata pengeluaran anggota loyalty vs non-loyalty
+
+Korelasi:
+
+online_ratio → total_spent
+
+annual_visits → total_purchases
+
+customer_rating → total_spent
+
+4. Retention & Recency Analysis
+
+Dari last_purchase_date:
+
+berapa customer aktif (beli dalam 3 bulan terakhir?)
+
+berapa customer dormant
+
+5. Escalation / Complaint Analysis
+
+Berapa customer pernah komplain (has_escalation)
+
+Alasan komplain terbanyak
+
+Dampak komplain terhadap:
+
+total_spent
+
+rating
+
+loyalty program
+
+6. Segmentation Analysis (Penting untuk Portfolio)
+
+Buat segmentasi berdasarkan:
+
+High spender vs low spender
+
+High online users vs low online users
+
+Loyal customer vs non-loyal
+
+Frequent visitors vs rare visitors
+
+🚀 B. SOAL LATIHAN UNTUK PORTFOLIO (KELAS INDUSTRY STANDARD)
+
+Gue buatkan 15 soal analisis, format real case interview.
+Pakai Python untuk analisis → visualisasi pakai Power BI.
+
+SOAL LATIHAN – CUSTOMER ANALYTICS
+1. Deskriptif Dasar
+
+Berapa jumlah total pelanggan?
+
+Berapa rata-rata total_spent dan total_purchases?
+
+2. Customer Behavior & Channel
+
+Berapa persen pelanggan yang lebih sering berbelanja online (online_ratio > 0.5)?
+
+Toko mana yang memiliki paling banyak pelanggan?
+
+Region mana yang menghabiskan uang paling banyak?
+
+3. Spending & Revenue
+
+Siapa 10 pelanggan dengan total_spent tertinggi?
+
+Berapa rata-rata pengeluaran anggota loyalty vs non-loyalty?
+
+Apakah pelanggan dengan annual_visits tinggi cenderung menghabiskan lebih banyak?
+
+4. Retention (Menggunakan tanggal pembelian)
+
+Berapa banyak pelanggan yang aktif dalam 90 hari terakhir?
+
+Hitung rata-rata selisih hari antara first_purchase_date dan last_purchase_date.
+
+5. Customer Rating & Satisfaction
+
+Apakah ada korelasi antara customer_rating dan total_spent?
+
+Region mana memiliki rating pelanggan tertinggi?
+
+6. Complaint & Escalation
+
+Berapa persen pelanggan yang pernah melakukan komplain?
+
+Alasan komplain apa yang paling umum?
+
+Apakah pelanggan yang pernah komplain cenderung memiliki rating lebih rendah?
+
+🚀 C. BONUS UNTUK PORTFOLIO
+
+Sertakan juga:
+
+Insight Summary (1 halaman):
+
+nilai penting yang kamu temukan
+
+pola yang menarik
+
+rekomendasi bisnis
+
+Ini bikin portfolio kamu langsung terlihat profesional.
